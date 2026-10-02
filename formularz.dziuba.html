@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz Koła Programowania</title>
+</head>
+<body bgcolor="#D9EAF7">
+<h1>Formularz Koła Programowania</h1>
+<form action="mailto:mkryniew@ids.gda.pl?subject=Dziuba" method="post" enctype="text/plain">
+    <h2>Dane uczestnika</h2>
+    <p>Imię:</p>
+    <input type="text" name="imie">
+    <p>Nazwisko:</p>
+    <input type="text" name="nazwisko">
+    <p>Klasa:</p>
+    <input type="text" name="klasa">
+    <p>E-mail:</p>
+    <input type="email" name="email">
+    <p>Kod grupy:</p>
+    <input type="text" name="kod_grupy">
+    <p>Hasło:</p>
+    <input type="password" name="haslo">
+    <h2>Dlaczego chcesz dołączyć do Koła Programowania?</h2>
+    <textarea name="dlaczego" rows="12" cols="70"></textarea>
+    <h2>Wybierz poziom</h2>
+    <input type="radio" name="poziom" value="Poczatkowy">
+    Poczatkowy
+    <input type="radio" name="poziom" value="Sredniozaawansowany">
+    Średniozaawansowany
+    <input type="radio" name="poziom" value="Zaawansowany">
+    Zaawansowany
+    <h2>Wybierz zainteresowania</h2>
+    <input type="checkbox" name="zainteresowania" value="Python">
+    Python
+    <input type="checkbox" name="zainteresowania" value="Web">
+    Web
+    <input type="checkbox" name="zainteresowania" value="Gry">
+    Gry
+    <input type="checkbox" name="zainteresowania" value="Inne">
+    Inne:
+    <input type="text" name="inne_zainteresowanie">
+    <br><br><br>
+    <input type="submit" value="SUBMIT">
+    <input type="reset" value="RESET">
+</form>
+</body>
+</html>
