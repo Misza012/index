@@ -1,101 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
 <head>
-    <title>Tabele</title>
+    <meta charset="UTF-8">
+    <title>Dane komputerowe - Michał Dziuba</title>
 </head>
+<body bgcolor="silver">
 
-<body>
+<table border="2" width="900" cellpadding="8" cellspacing="2"
+       align="center" bordercolor="blue">
 
-<h2>Tabela HTML przykłady</h2>
-
-<table border="1" cellpadding="5" cellspacing="2">
-    <tr>
-        <th>Kolumna 1</th>
-        <th>Kolumna 2</th>
-        <th>Kolumna 3</th>
-        <th>Kolumna 4</th>
-        <th>Kolumna 5</th>
+    <tr bgcolor="lightblue">
+        <th colspan="5" style="font-family: Georgia; font-size: 20pt; text-align: center;">
+            Dane komputerowe – Michał Dziuba 1K/P
+        </th>
     </tr>
 
-    <tr>
-        <td>Komórka 1</td>
-        <td>Komórka 2</td>
-        <td>Komórka 3</td>
-        <td>Komórka 4</td>
-        <td>Komórka 5</td>
+    <tr bgcolor="lightyellow">
+        <th>Model karty graficznej</th>
+        <th>Taktowanie bazowe</th>
+        <th>Rozmiar pamięci</th>
+        <th>Szyna pamięci</th>
+        <th>Typ chłodzenia</th>
     </tr>
 
-    <tr>
-        <td>Komórka 6</td>
-        <td>Komórka 7</td>
-        <td>Komórka 8</td>
-        <td>Komórka 9</td>
-        <td>Komórka 10</td>
+    <tr align="center">
+        <td>RTX 4060</td>
+        <td>1830 MHz</td>
+        <td>8 GB</td>
+        <td>128-bit</td>
+        <td rowspan="2" bgcolor="lightgreen">Aktywne</td>
     </tr>
 
-    <tr>
-        <td>Komórka 11</td>
-        <td>Komórka 12</td>
-        <td>Komórka 13</td>
-        <td>Komórka 14</td>
-        <td>Komórka 15</td>
+    <tr align="center">
+        <td>RTX 4070</td>
+        <td>1920 MHz</td>
+        <td>12 GB</td>
+        <td>192-bit</td>
     </tr>
+
+    <tr align="center" bgcolor="lightyellow">
+        <td>RX 7600</td>
+        <td>2250 MHz</td>
+        <td>8 GB</td>
+        <td>128-bit</td>
+        <td>Aktywne</td>
+    </tr>
+
+    <tr align="center">
+        <td>RTX 4060 Ti</td>
+        <td>2310 MHz</td>
+        <td>8 GB</td>
+        <td>128-bit</td>
+        <td>Aktywne</td>
+    </tr>
+
+    <tr align="center" bgcolor="lightyellow">
+        <td>RX 7700 XT</td>
+        <td>2171 MHz</td>
+        <td>12 GB</td>
+        <td>192-bit</td>
+        <td>Aktywne</td>
+    </tr>
+
+    <tr align="center" bgcolor="lightblue">
+        <td colspan="3"><b>Informacje o kartach graficznych</b></td>
+        <td>192-bit</td>
+        <td>Aktywne</td>
+    </tr>
+
 </table>
 
-
-<h2>Tabela trzy wiersze w tym jeden wiersz nagłówka i trzy kolumny</h2>
-
-<table border="1" cellpadding="5" cellspacing="2">
-    <tr>
-        <th>Nagłówek 1</th>
-        <th>Nagłówek 2</th>
-        <th>Nagłówek 3</th>
-    </tr>
-
-    <tr>
-        <td>jeden</td>
-        <td>A</td>
-        <td>pierwszy</td>
-    </tr>
-
-    <tr>
-        <td>dwa</td>
-        <td>B</td>
-        <td>drugi</td>
-    </tr>
-</table>
-
-
-<h2>Przykład tabeli z użyciem łączenia wierszy oraz kolumn</h2>
-
-<table border="1" cellpadding="5" cellspacing="2">
-    <tr>
-        <th colspan="3">Opis tabeli</th>
-    </tr>
-
-    <tr>
-        <td>Kolumna</td>
-        <td>bez przetwarzania</td>
-        <td>center</td>
-    </tr>
-
-    <tr>
-        <td>left</td>
-        <td rowspan="2">bottom,right</td>
-        <td>right</td>
-    </tr>
-
-    <tr>
-        <td>middle</td>
-        <td>top,center</td>
-    </tr>
-
-    <tr>
-        <td>center</td>
-        <td>top, left</td>
-        <td></td>
-    </tr>
-</table>
-<br><br>
+<p align="center">
+    Źródło: specyfikacje producentów kart graficznych.
+</p>
 </body>
 </html>
