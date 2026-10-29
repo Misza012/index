@@ -1,43 +1,93 @@
-<!DOCTYPE html> 
-  <html lang="pl-PL"> 
-<html> 
-     <head> 
-             <meta charset="utf-8"> 
-             <title> ZADANIE FORMULARZ      </title> 
-     </head> 
- <body bgcolor="#87CEFA"> 
-<center><h1> Formularz o.................zaproponowany przez nauczyciela</h1></center> 
-<form enctype="text/plain" action="mailto:mkryniew@wp.pl" subject="formularz_dane" method="Post"> 
-  <TABLE> 
- <TR height="100"> 
-                          <TD width="500">  
-                               <b>Imię</b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
-&nbsp  
-&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input name="imie" size="22">  
-                               <br><br> 
-                               <b>Drugie imię</b>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  
-&nbsp &nbsp &nbsp &nbsp <input name="drugie" size="22">  
-                               <br><br> 
-                             <b>Nazwisko </b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
-&nbsp &nbsp &nbsp <input name="nazwisko" size="22">  
-                               <br><br> 
-                             <b>Pseudonim artystyczny</b>&nbsp &nbsp<input name="login" size="22"><nobr> 
-<br>  
-                           </TD>  
-                          <TD width="300" >komórka2 </TD>  
-                          <TD width="500">komórka3  </TD> 
-        </TR> 
- <TR height="200"> 
-                          <TD>jeden                 </TD>  
-                          <TD> A                    </TD>  
-                          <TD> pierwszy             </TD> 
-        </TR> 
-  <TR height="400"> 
-                          <TD>dwa             </TD>  
-                          <TD> B                    </TD>  
-                          <TD> drugi                </TD> 
-        </TR> 
-  </TABLE> 
-</form> 
- </body> 
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+<meta charset="utf-8">
+<title>ZADANIE FORMULARZ</title>
+</head>
+
+<body bgcolor="#87CEFA">
+
+<center>
+<h1>FORMULARZ DO KOŁA PROGRAMISTYCZNEGO</h1>
+</center>
+
+<form enctype="text/plain" action="mailto:dzubamisa12@gmail.com" method="post">
+
+<TABLE border="0" width="900" cellpadding="12" cellspacing="0" align="center">
+
+<TR>
+<TD width="900">
+
+<b>Imię:</b>
+<br><br>
+<input type="text" name="imie" size="45">
+<br><br><br>
+
+<b>Nazwisko:</b>
+<br><br>
+<input type="text" name="nazwisko" size="45">
+<br><br><br>
+
+<b>Klasa:</b>
+<br><br>
+<input type="text" name="klasa" size="45">
+<br><br><br>
+
+<b>E-mail:</b>
+<br><br>
+<input type="email" name="email" size="45">
+<br><br><br>
+
+<b>Kod grupy:</b>
+<br><br>
+<input type="text" name="kod_grupy" maxlength="8" size="45">
+<br>
+(maks. 8 znaków)
+<br><br><br>
+
+<b>Hasło:</b>
+<br><br>
+<input type="password" name="haslo" size="45">
+<br><br><br>
+
+<b>Dlaczego chcesz dołączyć do koła programistycznego?</b>
+<br><br>
+<textarea name="powod" rows="10" cols="60"></textarea>
+<br><br><br>
+
+<b>Wybierz poziom:</b>
+<br><br>
+<input type="radio" name="poziom" value="Początkujący"> Początkujący
+<br><br>
+<input type="radio" name="poziom" value="Średniozaawansowany"> Średniozaawansowany
+<br><br>
+<input type="radio" name="poziom" value="Zaawansowany"> Zaawansowany
+<br><br><br>
+
+<b>Wybierz zainteresowania:</b>
+<br><br>
+<input type="checkbox" name="python" value="Python"> Python
+<br><br>
+<input type="checkbox" name="web" value="Web"> Web
+<br><br>
+<input type="checkbox" name="gry" value="Gry"> Gry
+<br><br>
+<input type="checkbox" name="inne" value="Inne"> Inne
+<br><br>
+<input type="text" name="inne_opis" size="45">
+<br><br><br>
+
+<center>
+<input type="submit" value="SUBMIT" style="font-size:28px; padding:10px 30px">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="reset" value="RESET" style="font-size:28px; padding:10px 30px">
+</center>
+
+</TD>
+</TR>
+
+</TABLE>
+
+</form>
+</body>
 </html>
